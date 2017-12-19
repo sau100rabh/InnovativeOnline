@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "515862167002",
+    "firebase_url": "https://innovative-online.firebaseio.com",
+    "project_id": "innovative-online",
+    "storage_bucket": "innovative-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515862167002:android:d8dab9024794b4ca",
+        "android_client_info": {
+          "package_name": "app.innovativeaquafront.com.innovativeonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515862167002-1dkqs5r5usudutqcnlpu06gdbuhpgus7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDNVnD_MiyvS412lnQatHcmIVbLCmPmqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

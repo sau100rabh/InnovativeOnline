@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/linear_layout"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_occupant"
+        android:layout_toEndOf="@+id/img_occupant"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp">
+
+        <TextView
+            android:text="Saurabh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtView_asstmem_name"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="8880516501"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtView_asstmem_contact"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="C406"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtView_asstmem_flat"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Occupant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtView_asstmem_post"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/linear_layout"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_occupant"
+        android:src="@drawable/ic_launcher"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Select Available Date Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:timePickerMode="spinner"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

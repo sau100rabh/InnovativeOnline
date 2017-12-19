@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.innovativeaquafront.com.innovativeonline.Activity.HomePageActivity">
+
+    <Button
+        android:text="@string/association_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/btn_association_details"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="showAssociationDetails"/>
+
+    <Button
+        android:text="@string/search_occupants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/btn_search_occupants"
+        android:layout_below="@+id/btn_association_details"
+        android:layout_alignLeft="@+id/btn_association_details"
+        android:layout_alignStart="@+id/btn_association_details"
+        android:layout_alignRight="@+id/btn_association_details"
+        android:layout_alignEnd="@+id/btn_association_details"
+        android:onClick="showSearchPage"/>
+
+    <Button
+        android:text="@string/utility_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/btn_utility_contacts"
+        android:layout_below="@+id/btn_search_occupants"
+        android:layout_alignLeft="@+id/btn_search_occupants"
+        android:layout_alignStart="@+id/btn_search_occupants"
+        android:layout_alignRight="@+id/btn_search_occupants"
+        android:layout_alignEnd="@+id/btn_search_occupants"
+        android:onClick="showUtilityContactsDetails"/>
+
+    <Button
+        android:text="@string/view_register_complaints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_utility_contacts"
+        android:layout_alignRight="@+id/btn_utility_contacts"
+        android:layout_alignEnd="@+id/btn_utility_contacts"
+        android:layout_marginTop="59dp"
+        android:id="@+id/btn_complaints"
+        android:layout_alignLeft="@+id/btn_utility_contacts"
+        android:layout_alignStart="@+id/btn_utility_contacts"
+        android:onClick="showComplaintsPage"/>
+
+
+</RelativeLayout>
